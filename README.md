@@ -1,6 +1,5 @@
 # ThingsBoard-IoT-Platform
 ## Thermostat Application Development.
-
 The ioT is an implimenting intelligence in the physical object and connect them to cloud to Visualize the physical device data on the cloud we need to develop the web application.
 But now a days we have luxury of ready to use IoT cloud platforms available to build the IoT applications.
 So instead of creating the web application for any IoT use case we simply choose the available IoT platform and build an application.
