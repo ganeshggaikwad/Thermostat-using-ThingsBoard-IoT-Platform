@@ -66,7 +66,7 @@ Open the Arduino IDE -----> Preferences-----> Enter "https://dl.espressif.com/dl
 Select your Board in Tools > Board menu (in my case it’s the DOIT ESP32 DEVKIT V1) to run the programs on ESP32 board.
  
 
-**Required libraries **-
+**Required Libraries **-
 1. DHT Sensor library - Link - https://github.com/adafruit/DHT-sensor-library
 2. PubSubClient Library - Link - https://github.com/asksensors/pubsubclient
 3. ArduinoJson Library - Link - https://github.com/bblanchon/ArduinoJson
