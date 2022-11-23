@@ -1,5 +1,4 @@
-# ThingsBoard-IoT-Platform
-## Thermostat Application Development.
+# ThingsBoard-IoT-Platform ## Thermostat Application Development.
 The ioT is an implimenting intelligence in the physical object and connect them to cloud to Visualize the physical device data on the cloud we need to develop the web application.
 But now a days we have luxury of ready to use IoT cloud platforms available to build the IoT applications.
 So instead of creating the web application for any IoT use case we simply choose the available IoT platform and build an application.
@@ -66,7 +65,7 @@ Select your Board in Tools > Board menu (in my case it’s the DOIT ESP32 DEVKIT
 
 //Dashboard Snapshot yet to be uploade
 
-
+![dashboard github](https://user-images.githubusercontent.com/84657983/203525113-9cb8e3d1-600b-43fb-b8e7-065d49eb84f0.png)
 
 
 
