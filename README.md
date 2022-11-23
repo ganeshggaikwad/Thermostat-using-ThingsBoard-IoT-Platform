@@ -1,4 +1,4 @@
-# ThingsBoard-IoT-Platform ## Thermostat Application Development.
+# Thermostat using ThingsBoard-IoT-Platform
 The ioT is an implimenting intelligence in the physical object and connect them to cloud to Visualize the physical device data on the cloud we need to develop the web application.
 But now a days we have luxury of ready to use IoT cloud platforms available to build the IoT applications.
 So instead of creating the web application for any IoT use case we simply choose the available IoT platform and build an application.
@@ -41,9 +41,18 @@ Where,
 We consider the ThingsBoard is installed on the local System.	
 curl -v -X POST -d "{\"temperature\": 25}" http://localhost:8080/api/v1/ABC123/telemetry --header "Content-Type:application/json"
 
-//Device details Snapshot yet to be uploade
+**Device details** - 
+![Device Access Token](https://user-images.githubusercontent.com/84657983/203525521-b2c42343-aab0-43b7-8360-cea69424c506.png)
+
+**CLI output for CURL API Call** -
+![CLI Output](https://user-images.githubusercontent.com/84657983/203525781-b539ebbf-913f-409a-af0e-f49f3fc51052.png)
+
+**Latest Telemetry** -
+![telemetry section](https://user-images.githubusercontent.com/84657983/203525665-329d295a-d2fa-430b-bef9-2008b951a18e.png)
 
 
+
+## Thermostat Application Development.
 ## ESP32 Connectivity with ThingsBoard
 
 Now we will setup the actual device and publish the data to Thingsboard.
@@ -62,18 +71,5 @@ Select your Board in Tools > Board menu (in my case it’s the DOIT ESP32 DEVKIT
 2. PubSubClient Library - Link - https://github.com/asksensors/pubsubclient
 3. ArduinoJson Library - Link - https://github.com/bblanchon/ArduinoJson
 
-
-//Dashboard Snapshot yet to be uploade
-
+**Thermostat Dashboard** -
 ![dashboard github](https://user-images.githubusercontent.com/84657983/203525113-9cb8e3d1-600b-43fb-b8e7-065d49eb84f0.png)
-
-
-
-
-
-
-
-
-
-
-
