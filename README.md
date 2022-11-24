@@ -32,14 +32,20 @@ We will use simple commands to publish data over HTTP or MQTT in this example.
 To publish the data first we use the CURL API. [Install the CURL based on OS used on the system]
 
 **CURL API Command** -
-curl -v -X POST -d "{\"temperature\": 25}" $THINGSBOARD_HOST_NAME/api/v1/$ACCESS_TOKEN/telemetry --header "Content-Type:application/json"
+
+```sh
+$ curl -v -X POST -d "{\"temperature\": 25}" $THINGSBOARD_HOST_NAME/api/v1/$ACCESS_TOKEN/telemetry --header "Content-Type:application/json"
+```
 
 Where, 
 	**THINGSBOARD_HOST_NAME** - refere to your ThingsBoard Installation
 	**ACCESS_TOKEN** - Device Accescibility Token
   
 We consider the ThingsBoard is installed on the local System.	
-curl -v -X POST -d "{\"temperature\": 25}" http://localhost:8080/api/v1/ABC123/telemetry --header "Content-Type:application/json"
+
+```sh
+$ curl -v -X POST -d "{\"temperature\": 25}" http://localhost:8080/api/v1/ABC123/telemetry --header "Content-Type:application/json"
+```
 
 **Device details** - 
 ![Device Access Token](https://user-images.githubusercontent.com/84657983/203525521-b2c42343-aab0-43b7-8360-cea69424c506.png)
@@ -75,4 +81,4 @@ Select your Board in Tools > Board menu (in my case it’s the DOIT ESP32 DEVKIT
 **Thermostat Dashboard** -
 ![dashboard github](https://user-images.githubusercontent.com/84657983/203525113-9cb8e3d1-600b-43fb-b8e7-065d49eb84f0.png)
 
-## Thank you Very Much..!
+###### Thank you Very Much..!
